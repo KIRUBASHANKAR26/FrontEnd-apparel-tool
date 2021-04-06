@@ -1,4 +1,7 @@
-
+var mailForm = document.getElementById('mail-form');
+mailForm.onclick = function(e) {
+    e.preventDefault();
+}
 function check()
 {
   var emailInput=document.getElementById("email-input").value;
