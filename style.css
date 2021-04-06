@@ -97,7 +97,8 @@ button > img:active{
 .show{
     display: inline !important;
 }
-@media  screen and (min-width:58rem) {
+
+@media  screen and (min-width:72rem) {
     main{
         background: url(./images/bg-pattern-desktop.svg) no-repeat;
         background-position: top left;
