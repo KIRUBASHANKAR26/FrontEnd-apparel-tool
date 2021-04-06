@@ -16,8 +16,7 @@ function check()
     sucessText.classList.add("show");
     errorIcon.classList.remove("show");
     document.getElementById("email-input").value = "";
-    document.getElementById("email-input").style.border = "1px solid hsl(0, 36%, 70%)";
-    
+    document.getElementById("email-input").style.border = "1px solid hsl(0, 36%, 70%)"; 
     
   }else
   {  
@@ -26,6 +25,7 @@ function check()
     errorIcon.classList.add("show");
     sucessText.classList.remove("show");
     document.getElementById("email-input").style.border = "3px solid hsl(0, 93%, 68%)";
+  
   }
 }
 
